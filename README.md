@@ -1,7 +1,7 @@
 
 # Employee Management System in Python (Tkinter Frontend & MySQL Backend)
 
-**Frontend**: Tkinter based frontend.
+**Frontend**: Tkinter-based frontend.
 
 **MySQL Integration**: Integrated MySQL as the database backend.
 
