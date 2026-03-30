@@ -262,7 +262,7 @@ def updateScreen():
                     frame = Frame(window)
                     frame.pack()
 
-                    employeeDetailsFrame =LabelFrame(frame, text="Update Employee Details")
+                    employeeDetailsFrame =LabelFrame(frame, text="Update the Employee Details")
                     employeeDetailsFrame.grid(row= 0, column=0, padx=20, pady=10)
 
                     firstNameLabel = Label(employeeDetailsFrame, text="First Name")
@@ -301,7 +301,7 @@ def updateScreen():
                     for widget in employeeDetailsFrame.winfo_children():
                         widget.grid_configure(padx=10, pady=5)
 
-                    button = Button(frame, text="Update Employee Details", command= enterData)
+                    button = Button(frame, text="Update the Employee Details", command= enterData)
                     button.grid(row=3, column=0, sticky="news", padx=20, pady=10)
                     button = Button(frame, text="Cancel", command= homeScreen)
                     button.grid(row=4, column=0, sticky="news", padx=20, pady=10)
@@ -363,7 +363,7 @@ def updateScreen():
 def allEmployeeScreen():
     employees  = sqlClient.getAllEmployees()
     if len(employees) == 0:
-        messagebox.showwarning(title="Error", message="No employees in the detabase.")
+        messagebox.showwarning(title="Error", message="No employees found in the detabase.")
     else:
         for widget in window.winfo_children():
             widget.destroy()
