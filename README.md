@@ -20,7 +20,7 @@
 - Fork this repo
 - Clone repo
 ```sh
-git clone https://github.com/OnkarSagare27/employee-management-mysql.git
+git clone https://github.com/mekhlasingh9818-coder/Vityarthi-Open-Source-Linux.git
 ```
 - Configure stuff in ``config.json``
 ```json
